@@ -1,0 +1,29 @@
+.video__icon {
+    max-width: 41px;
+    max-height: 41px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__icon {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon {
+        position: absolute;
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__icon {
+        top: 16px;
+        left: 16px;
+    }
+}

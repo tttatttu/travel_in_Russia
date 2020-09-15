@@ -1,0 +1,14 @@
+@import url("../lead/lead.css");
+@import url("../intro/intro.css");
+@import url("../photos/photos.css");
+@import url("../places/places.css");
+@import url("../video/video.css");
+@import url("../comments/comments.css");
+@import url("../cover/cover.css");
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}

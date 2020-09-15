@@ -1,0 +1,17 @@
+.header__langs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 425px) {
+    .header__langs {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header__langs {
+        font-size: 1.125em;
+    }
+}

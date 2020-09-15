@@ -1,0 +1,39 @@
+@import url("./_size_s/content-title_size_s.css");
+
+.content-title {
+    font-weight: 900;
+    font-size: 4.5em;
+    line-height: 1.1083em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: 2.625em;
+        line-height: 1.1095em;
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content-title {
+        width: 100%;
+        font-size: 2em;
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title {
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-title {
+        max-width: 288px;
+    }
+}

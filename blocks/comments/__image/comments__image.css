@@ -1,0 +1,10 @@
+.comments__image {
+    border-radius: 47px;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__image {
+        margin: 0 100%;
+    }
+}

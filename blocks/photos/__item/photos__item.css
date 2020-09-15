@@ -1,0 +1,15 @@
+.photos__item {
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .photos__item {
+        min-height: 232px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photos__item {
+        min-height: 192px;
+    }
+}

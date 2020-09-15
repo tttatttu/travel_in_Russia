@@ -1,0 +1,12 @@
+.intro__list-elem {
+  font-size: 0.813em;
+  line-height: 1.5385em;
+  text-align: left;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list-elem {
+    font-size: 0.75em;
+    line-height: 1.583em;
+  }
+}

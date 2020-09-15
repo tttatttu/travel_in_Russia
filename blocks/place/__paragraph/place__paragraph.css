@@ -1,0 +1,20 @@
+.place__paragraph {
+    margin: 0;
+    padding-bottom: 22px;
+}
+
+.place__paragraph:nth-child(2) {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        padding-bottom: 33px;
+    }
+}
